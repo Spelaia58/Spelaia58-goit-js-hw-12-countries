@@ -7,3 +7,24 @@ html {
 *::after {
   box-sizing: inherit;
 }
+.dropdown {
+  list-style: none;
+}
+.form-field {
+  width: 30%;
+}
+.countries {
+  text-decoration: none;
+  color: black;
+}
+.countriesOne {
+  text-align: center;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.languages {
+  list-style: none;
+}
