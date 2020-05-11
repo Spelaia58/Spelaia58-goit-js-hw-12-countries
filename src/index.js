@@ -23,7 +23,7 @@ refs.searchQuery.addEventListener(
       }
 
       if (data.length > 10) {
-        error({
+        return error({
           text: 'Too many matches found. Please enter a more specific query!',
         });
       }
